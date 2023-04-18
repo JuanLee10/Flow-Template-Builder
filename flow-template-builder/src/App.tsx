@@ -1,45 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Box, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
-import {InboxIcon, MailIcon} from '@mui/icons-material';
-
+import React, { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Content from "./components/Content";
+import { Box, Grid } from "@mui/material";
 
 function App() {
+  const [contentSelect, setContentSelect] = useState();
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
-      <body>
-        <Box sx={{ overflow: 'auto' }}>
-            <List>
-              {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                <ListItem key={text} disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                    </ListItemIcon>
-                    <ListItemText primary={text} />
-                  </ListItemButton>
-                </ListItem>
-              ))}
-            </List>
-            <Divider />
-            <List>
-              {['All mail', 'Trash', 'Spam'].map((text, index) => (
-                <ListItem key={text} disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon>
-                      {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                    </ListItemIcon>
-                    <ListItemText primary={text} />
-                  </ListItemButton>
-                </ListItem>
-              ))}
-            </List>
-          </Box>
-      </body>
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container>
+          <Grid item xs={1}>
+            <NavBar />
+          </Grid>
+          <Grid item xs={11}>
+            <Content />
+          </Grid>
+        </Grid>
+      </Box>
     </div>
   );
 }
