@@ -27,8 +27,8 @@ Include logo/demo screenshot etc. -->
 ### Built with
 <b>Frontend:</b>
 - [React](https://reactjs.org/)
-- [Material UI React Component Library] (https://mui.com/)
-- [Typescript Programming Language] (https://www.typescriptlang.org/)
+- [Material UI React Component Library](https://mui.com/)
+- [Typescript Programming Language](https://www.typescriptlang.org/)
 
 ## Features
 The application allows users to build and modify their message templates using editing sidebars. Users are able to upload their own images, body text,
