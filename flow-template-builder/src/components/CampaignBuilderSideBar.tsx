@@ -50,7 +50,7 @@ export default function CampaignBuilderSideBar() {
       <List>
         <ListItem
           secondaryAction={
-            <IconButton edge="end" aria-label="delete">
+            <IconButton edge="end" aria-label="info">
               <InfoIcon />
             </IconButton>
           }
