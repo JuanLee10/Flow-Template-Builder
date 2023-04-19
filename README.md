@@ -5,7 +5,8 @@ This is the React front-end for Flow Template Builder.
 ## Motivation
 <!-- A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists. -->
 
-Learning more about the message templates and the WhatsApp api.
+Learning more about message templates and the WhatsApp api. Expanding my knowledge on the React component library Material UI as well as honing my 
+Typescript programming skills. 
 
 <!-- ## Build status
 Build status of continus integration i.e. travis, appveyor etc. Ex. - 
