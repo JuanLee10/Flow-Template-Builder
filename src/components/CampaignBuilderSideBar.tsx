@@ -21,6 +21,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 export default function CampaignBuilderSideBar() {
   const [activeStep, setActiveStep] = React.useState(0);
   const steps = [1, 2, 3, 4];
+
   return (
     <Box sx={{ p: 2, height: "86vh", borderRight: 0.1 }}>
       <Stepper activeStep={activeStep}>

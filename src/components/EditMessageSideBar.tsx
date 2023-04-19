@@ -33,32 +33,20 @@ import { useState } from "react";
 export default function EditMessageSideBar({
   toggleDrawer,
   isOpen,
-  header,
   setHeader,
-  bodyText,
   setBodyText,
-  footerText,
   setFooterText,
-  buttonText1,
   setButtonText1,
-  buttonText2,
   setButtonText2,
-  buttonText3,
   setButtonText3,
 }: {
   toggleDrawer: (open: boolean) => any;
   isOpen: boolean;
-  header: string;
   setHeader: (header: string) => void;
-  bodyText: string;
   setBodyText: (bodyText: string) => void;
-  footerText: string;
   setFooterText: (footerText: string) => void;
-  buttonText1: string;
   setButtonText1: (buttonText1: string) => void;
-  buttonText2: string;
   setButtonText2: (buttonText2: string) => void;
-  buttonText3: string;
   setButtonText3: (buttonText3: string) => void;
 }) {
   const [headerSwitch, setHeaderSwitch] = useState(true);
@@ -343,20 +331,10 @@ export default function EditMessageSideBar({
                       >
                         <FormatClearIcon fontSize="small" />
                       </IconButton>
-                      <IconButton
-                        edge="end"
-                        aria-label="info"
-                        size="small"
-                        //   sx={{ bottom: 10 }}
-                      >
+                      <IconButton edge="end" aria-label="info" size="small">
                         <FormatItalicIcon fontSize="small" />
                       </IconButton>
-                      <IconButton
-                        edge="end"
-                        aria-label="info"
-                        size="small"
-                        //   sx={{ bottom: 10 }}
-                      >
+                      <IconButton edge="end" aria-label="info" size="small">
                         <ChevronLeftIcon fontSize="small" />
                         <ChevronRightIcon fontSize="small" />
                       </IconButton>
@@ -475,20 +453,10 @@ export default function EditMessageSideBar({
                         display="flex"
                       >
                         <Box>
-                          <IconButton
-                            edge="end"
-                            aria-label="info"
-                            size="small"
-                            //   sx={{ bottom: 10, marginLeft: 1 }}
-                          >
+                          <IconButton edge="end" aria-label="info" size="small">
                             <EmojiEmotionsIcon fontSize="small" />
                           </IconButton>
-                          <IconButton
-                            edge="end"
-                            aria-label="info"
-                            size="small"
-                            //   sx={{ bottom: 10 }}
-                          >
+                          <IconButton edge="end" aria-label="info" size="small">
                             <FormatBoldIcon fontSize="small" />
                           </IconButton>
                           <IconButton
@@ -499,20 +467,10 @@ export default function EditMessageSideBar({
                           >
                             <FormatClearIcon fontSize="small" />
                           </IconButton>
-                          <IconButton
-                            edge="end"
-                            aria-label="info"
-                            size="small"
-                            //   sx={{ bottom: 10 }}
-                          >
+                          <IconButton edge="end" aria-label="info" size="small">
                             <FormatItalicIcon fontSize="small" />
                           </IconButton>
-                          <IconButton
-                            edge="end"
-                            aria-label="info"
-                            size="small"
-                            //   sx={{ bottom: 10 }}
-                          >
+                          <IconButton edge="end" aria-label="info" size="small">
                             <ChevronLeftIcon fontSize="small" />
                             <ChevronRightIcon fontSize="small" />
                           </IconButton>

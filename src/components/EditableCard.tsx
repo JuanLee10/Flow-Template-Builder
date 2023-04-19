@@ -123,17 +123,11 @@ export default function EditableCard() {
         <EditMessageSideBar
           toggleDrawer={toggleDrawer}
           isOpen={isOpen}
-          header={header}
           setHeader={setHeader}
-          bodyText={bodyText}
           setBodyText={setBodyText}
-          footerText={footerText}
           setFooterText={setFooterText}
-          buttonText1={buttonText1}
           setButtonText1={setButtonText1}
-          buttonText2={buttonText2}
           setButtonText2={setButtonText2}
-          buttonText3={buttonText3}
           setButtonText3={setButtonText3}
         />
       </Box>

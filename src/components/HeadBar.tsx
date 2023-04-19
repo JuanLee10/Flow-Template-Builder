@@ -1,4 +1,4 @@
-import { Box, Toolbar, Typography, Button, AppBar } from "@mui/material";
+import { Box, Toolbar, Typography, Button } from "@mui/material";
 import HighlightIcon from "@mui/icons-material/Highlight";
 
 export default function HeadBar() {
