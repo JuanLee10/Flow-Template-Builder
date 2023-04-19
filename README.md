@@ -31,14 +31,14 @@ Include logo/demo screenshot etc. -->
 - [Typescript Programming Language](https://www.typescriptlang.org/)
 
 ## Features
-The application allows users to build and modify their message templates using editing sidebars. Users are able to upload their own images, body text,
-footnotes and buttons to visualize their ideal messages. 
+The application allows users to build and modify their message templates using message editing sidebars. Users are able to upload their own images,
+body text, footnotes and buttons to visualize their ideal messages in WhatsApp message format. 
 
 ## How to use?
 In order to host the project locally, follow these steps
 
-    git clone https://github.com/JuanLee10/j2f-fe.git
-    cd j2f-fe
+    git clone https://github.com/JuanLee10/Flow-Template-Builder.git
+    cd Flow-Template-Builder
     npm install
     npm start
     
