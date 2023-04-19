@@ -18,6 +18,7 @@ const listItemStyle = {
 } as const;
 const dividerStyle = { bgcolor: "white" } as const;
 
+// NavBar used on the left side of the screen to show the selection of content
 export default function NavBar() {
   return (
     <List sx={listStyle}>

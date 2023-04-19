@@ -18,6 +18,7 @@ import MessageIcon from "@mui/icons-material/Message";
 import InfoIcon from "@mui/icons-material/Info";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
+// SideBar used to input the campaign name and more
 export default function CampaignBuilderSideBar() {
   const [activeStep, setActiveStep] = React.useState(0);
   const steps = [1, 2, 3, 4];

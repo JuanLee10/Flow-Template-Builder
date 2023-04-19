@@ -30,6 +30,7 @@ import ClearIcon from "@mui/icons-material/Clear";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import { useState } from "react";
 
+// Toggable drawer that is used to edit the message card 
 export default function EditMessageSideBar({
   toggleDrawer,
   isOpen,

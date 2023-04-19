@@ -2,6 +2,7 @@ import { Box, Card, CardContent, Typography } from "@mui/material";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import EditableCard from "./EditableCard";
 
+// MessageCard Component in the middle of the content component
 export default function MessageCardContainer() {
   return (
     <Box

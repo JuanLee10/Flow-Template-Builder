@@ -4,6 +4,7 @@ import HeadBar from "./HeadBar";
 import CampaignBuilderSideBar from "./CampaignBuilderSideBar";
 import MessageCardContainer from "./MessageCardContainer";
 
+// Every component to the right of the NavBar
 export default function Content() {
   return (
     <Box sx={{ flexGrow: 1 }}>

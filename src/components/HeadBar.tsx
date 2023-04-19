@@ -1,6 +1,7 @@
 import { Box, Toolbar, Typography, Button } from "@mui/material";
 import HighlightIcon from "@mui/icons-material/Highlight";
 
+// Top Bar showing the title of the website and tips and the x button
 export default function HeadBar() {
   return (
     <Box>

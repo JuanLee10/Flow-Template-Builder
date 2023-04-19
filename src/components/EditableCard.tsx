@@ -11,6 +11,7 @@ import pugPhoto from "../assets/Pug-PNG-Clipart.png";
 import React from "react";
 import EditMessageSideBar from "./EditMessageSideBar";
 
+// Contents of the message card. This componenet exists within the MessageCardContainer component
 export default function EditableCard() {
   const [isOpen, setIsOpen] = React.useState(false);
   const [header, setHeader] = React.useState("");
